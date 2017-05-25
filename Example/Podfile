@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SHPaymentMethod_Example' do
+  pod 'SHPaymentMethod', :path => '../'
+
+  target 'SHPaymentMethod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

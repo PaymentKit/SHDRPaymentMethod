@@ -1,0 +1,16 @@
+PODS:
+  - SHPaymentMethod (0.1.0)
+
+DEPENDENCIES:
+  - SHPaymentMethod (from `../`)
+
+EXTERNAL SOURCES:
+  SHPaymentMethod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SHPaymentMethod: ceab47efad2aa3a82a163691a8c65ec61ad3b642
+
+PODFILE CHECKSUM: ed3f786df82610ff63edeeba5291bdb4a0758a78
+
+COCOAPODS: 1.2.1
