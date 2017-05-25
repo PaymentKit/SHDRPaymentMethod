@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1058695900@qq.com/SHPaymentMethod'
+  s.homepage         = 'https://github.com/PaymentKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1058695900@qq.com' => 'HAVI.X.LI.-ND@DISNEY.COM' }
