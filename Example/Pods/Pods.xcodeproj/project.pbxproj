@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0A60A4E5F4719B751FCC14C544A7ACDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		594D1453FB11BAB9366531947E09F499 /* SHPaymentMethod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A17F829BB50093E45E59698565544 /* SHPaymentMethod-dummy.m */; };
-		6DAF918AA5053744FC5FCB4F1DA42CBD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8C55DADA5CCDC4B9964D02E991413 /* ReplaceMe.swift */; };
+		1BDD814DDB80CC50B7B047F2FD016470 /* PaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B05B6F92B0DD197FA5A7B02B1F4603 /* PaymentRequest.swift */; };
+		1E4D06CFCCB1ABA97555B578BC865360 /* SHPaymentMethod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A17F829BB50093E45E59698565544 /* SHPaymentMethod-dummy.m */; };
+		41ED6F9CA383F96F66BE82F078D8539D /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A15D6470DC7BA924D109698763417 /* PaymentMethod.swift */; };
+		7A2D781230A1F1ACED6DDB59A4F479A3 /* PaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75388504EF98C85502D40CCF11D5564A /* PaymentResponse.swift */; };
 		8A1430C25BC6AF088C9DF09B12ECBCE5 /* Pods-SHPaymentMethod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D4DE7CA0A6E915F23F7B7A1B8A733B /* Pods-SHPaymentMethod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		910887881857AC0C33628BAA95C15473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9884B10BEA1083860868D562A66756AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -42,14 +44,17 @@
 		3D404CB2CCB4BDD7066CBF348B417570 /* Pods-SHPaymentMethod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHPaymentMethod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4332F50B5F93BF7A1502CA8C7A870F26 /* Pods-SHPaymentMethod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHPaymentMethod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		444B020C87B0D4A17E0A00A6360144EB /* Pods_SHPaymentMethod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHPaymentMethod_Tests.framework; path = "Pods-SHPaymentMethod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B05B6F92B0DD197FA5A7B02B1F4603 /* PaymentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentRequest.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7312E06D46C4721DC677CAE51EE1B476 /* Pods-SHPaymentMethod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHPaymentMethod_Example-umbrella.h"; sourceTree = "<group>"; };
+		75388504EF98C85502D40CCF11D5564A /* PaymentResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentResponse.swift; sourceTree = "<group>"; };
 		829E1FE66D865A888BB08081F1FE7723 /* Pods-SHPaymentMethod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHPaymentMethod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F918D6735B392E69844921DC4FC7A7F /* Pods-SHPaymentMethod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHPaymentMethod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CD29375B7097BCAC4401208B6488171 /* Pods_SHPaymentMethod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHPaymentMethod_Example.framework; path = "Pods-SHPaymentMethod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FBDD75817ED1175571DA54713C050E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A281E604435CE784766C7DDBC56EF737 /* SHPaymentMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHPaymentMethod.framework; path = SHPaymentMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72A15D6470DC7BA924D109698763417 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
 		A875F79CF4D9568CD14CDE49F5150FA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC0DB78A5939AF0013AF12A06C777E4 /* SHPaymentMethod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHPaymentMethod.modulemap; sourceTree = "<group>"; };
 		B76D25258175EDF1F34AB6619D6FEA1D /* Pods-SHPaymentMethod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHPaymentMethod_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -58,7 +63,6 @@
 		CB837990113AADEB5904AD5C7CD145DD /* SHPaymentMethod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHPaymentMethod.xcconfig; sourceTree = "<group>"; };
 		D52A17F829BB50093E45E59698565544 /* SHPaymentMethod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHPaymentMethod-dummy.m"; sourceTree = "<group>"; };
 		D55AC701D0A4412915A22458B4D5ED7A /* SHPaymentMethod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHPaymentMethod-umbrella.h"; sourceTree = "<group>"; };
-		D6C8C55DADA5CCDC4B9964D02E991413 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E0B536C9D24CB021093E9C454AE50EEB /* Pods-SHPaymentMethod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHPaymentMethod_Tests-dummy.m"; sourceTree = "<group>"; };
 		FCC242F6FE4E42AA39C919D0DA48AC19 /* Pods-SHPaymentMethod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHPaymentMethod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FECCB8A11518EFBF29BBE2B4B46B0B48 /* SHPaymentMethod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHPaymentMethod-prefix.pch"; sourceTree = "<group>"; };
@@ -122,7 +126,7 @@
 		2675C8274D5D9AF6E09D1ADC595919E8 /* SHPaymentMethod */ = {
 			isa = PBXGroup;
 			children = (
-				4B748F944DC489FC23D8EF4436690256 /* SHPaymentMethod */,
+				3D44E48C9210C9E70BB37E584EE4EF0C /* SHPaymentMethod */,
 				2B287437F3B45BAE828807BFD2CE0408 /* Support Files */,
 			);
 			name = SHPaymentMethod;
@@ -143,15 +147,6 @@
 			path = "Example/Pods/Target Support Files/SHPaymentMethod";
 			sourceTree = "<group>";
 		};
-		2CD0987C11CEF8520070EF0F9EA318A4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D6C8C55DADA5CCDC4B9964D02E991413 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3827FFF1863175E78A5E9C4D99B1E4C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +157,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B748F944DC489FC23D8EF4436690256 /* SHPaymentMethod */ = {
+		3D44E48C9210C9E70BB37E584EE4EF0C /* SHPaymentMethod */ = {
 			isa = PBXGroup;
 			children = (
-				2CD0987C11CEF8520070EF0F9EA318A4 /* Classes */,
+				D929F7E53850F743097CE9BBA566C72D /* Classes */,
 			);
 			name = SHPaymentMethod;
 			path = SHPaymentMethod;
@@ -224,6 +219,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D929F7E53850F743097CE9BBA566C72D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A72A15D6470DC7BA924D109698763417 /* PaymentMethod.swift */,
+				53B05B6F92B0DD197FA5A7B02B1F4603 /* PaymentRequest.swift */,
+				75388504EF98C85502D40CCF11D5564A /* PaymentResponse.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -275,7 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDE4E0BD7E16197298B043776361EBF6 /* Build configuration list for PBXNativeTarget "SHPaymentMethod" */;
 			buildPhases = (
-				07D39B5547F10A84F06E18EE2ED198F8 /* Sources */,
+				E158F518F718932F1C136422363E0FE5 /* Sources */,
 				16737DE92D97E33552B64907AD5E5305 /* Frameworks */,
 				B35E00196BCA843831EA8A93433FE84C /* Headers */,
 			);
@@ -335,20 +341,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07D39B5547F10A84F06E18EE2ED198F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DAF918AA5053744FC5FCB4F1DA42CBD /* ReplaceMe.swift in Sources */,
-				594D1453FB11BAB9366531947E09F499 /* SHPaymentMethod-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DCDC91A964AC763200ED943CAE986A92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED6E889D824F25E165D33D05FA9ADC67 /* Pods-SHPaymentMethod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E158F518F718932F1C136422363E0FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ED6F9CA383F96F66BE82F078D8539D /* PaymentMethod.swift in Sources */,
+				1BDD814DDB80CC50B7B047F2FD016470 /* PaymentRequest.swift in Sources */,
+				7A2D781230A1F1ACED6DDB59A4F479A3 /* PaymentResponse.swift in Sources */,
+				1E4D06CFCCB1ABA97555B578BC865360 /* SHPaymentMethod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

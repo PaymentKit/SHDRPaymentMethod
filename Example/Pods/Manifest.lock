@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SHPaymentMethod: ceab47efad2aa3a82a163691a8c65ec61ad3b642
+  SHPaymentMethod: d10c6f1420d829e5072154f9b449b8931ed08ff0
 
 PODFILE CHECKSUM: ed3f786df82610ff63edeeba5291bdb4a0758a78
 
